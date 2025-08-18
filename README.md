@@ -16,7 +16,7 @@
 ### 📖 [TIL (Today I Learned)](til/)
 일별/월별로 새롭게 배운 내용을 간단히 기록합니다.
 
-### 📝 [Templates](templates/)
+### 📝 [Templates](TEMPLATES.md)
 일관된 문서 작성을 위한 템플릿 모음입니다.
 
 ## 📋 작성 규칙 및 컨벤션

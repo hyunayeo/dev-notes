@@ -30,7 +30,7 @@ permalink: /troubleshooting/
 
 ## 📝 문서 작성 가이드
 
-새로운 트러블슈팅 문서를 작성할 때는 [`templates/troubleshooting-template.md`](../templates/troubleshooting-template.md)를 참고하세요.
+새로운 트러블슈팅 문서를 작성할 때는 [TEMPLATES.md](../TEMPLATES.md#troubleshooting-template)를 참고하세요.
 
 ### 파일명 규칙
 - `카테고리-문제요약-YYYY-MM-DD.md` 형식으로 작성
