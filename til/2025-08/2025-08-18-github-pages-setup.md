@@ -4,7 +4,6 @@ title: "2025-08-18 - GitHub Pages 설정"
 date: 2025-08-18
 categories: [til]
 tags: [github-pages, jekyll, 웹사이트]
-permalink: /til/2025-08/2025-08-18-github-pages-setup.md
 ---
 
 # 2025-08-18 - GitHub Pages 설정
