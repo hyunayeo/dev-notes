@@ -1,0 +1,58 @@
+# GitHub Pages 설정
+title: "Dev Notes"
+description: "개발 경험과 트러블슈팅을 정리하는 개인 학습 저장소"
+author: "hyunayeo"
+url: "https://hyunayeo.github.io"
+baseurl: "/dev-notes"
+
+# Jekyll 설정
+theme: minima
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# 플러그인
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 제외할 파일들
+exclude:
+  - .gitkeep
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# 네비게이션 메뉴
+header_pages:
+  - README.md
+  - projects/index.md
+  - troubleshooting/index.md
+  - til/index.md
+
+# 기본 레이아웃 설정
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: "troubleshooting"
+    values:
+      layout: "page"
+  - scope:
+      path: "til"
+    values:
+      layout: "page"

@@ -2,34 +2,22 @@
 
 개발 과정에서 겪은 트러블슈팅 경험과 새로 배운 내용을 체계적으로 정리하는 개인 학습 저장소입니다.
 
-## 🗂 폴더 구조
+## 🌐 웹사이트
+이 저장소는 GitHub Pages로 웹사이트로도 볼 수 있습니다: [https://hyunayeo.github.io/dev-notes](https://hyunayeo.github.io/dev-notes)
 
-### 📁 projects/
+## 🗂 카테고리
+
+### 📁 [Projects](projects/)
 프로젝트별 개발 경험과 주요 구현 사항, 트러블슈팅 내역을 정리합니다.
-- 프로젝트 개요 및 기술스택
-- 주요 구현 사항
-- 발생한 문제와 해결 과정
-- 배운 점과 개선사항
 
-### 🔧 troubleshooting/
+### 🔧 [Troubleshooting](troubleshooting/)
 개발 중 발생한 문제와 해결 과정을 카테고리별로 분류하여 정리합니다.
-- 문제 상황 상세 기록
-- 원인 분석 과정
-- 해결 방법 및 근거
-- 예방 방법 및 참고사항
 
-### 📖 til/ (Today I Learned)
+### 📖 [TIL (Today I Learned)](til/)
 일별/월별로 새롭게 배운 내용을 간단히 기록합니다.
-- 새로 배운 기술이나 개념
-- 유용한 도구나 라이브러리
-- 개발 팁과 베스트 프랙티스
-- 참고할 만한 자료
 
-### 📝 templates/
+### 📝 [Templates](templates/)
 일관된 문서 작성을 위한 템플릿 모음입니다.
-- project-template.md: 프로젝트 문서 템플릿
-- troubleshooting-template.md: 트러블슈팅 문서 템플릿
-- til-template.md: TIL 문서 템플릿
 
 ## 📋 작성 규칙 및 컨벤션
 
