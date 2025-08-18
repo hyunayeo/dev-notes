@@ -14,7 +14,7 @@ permalink: /troubleshooting/
 
 {% if troubleshooting_posts.size > 0 %}
   {% for post in troubleshooting_posts %}
-- [{{ post.title | default: post.name | remove: '.md' }}]({{ post.name }}) - {{ post.date | default: "날짜 없음" }}
+- [{{ post.title | default: post.name | remove: '.md' }}]({{ post.url | relative_url }}) - {{ post.date | default: "날짜 없음" }}
   {% endfor %}
 {% else %}
 ### 📝 작성 예정
