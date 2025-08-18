@@ -10,16 +10,8 @@ permalink: /til/2025-08/
 
 ## 📚 이번 달 학습 내용
 
-{% assign til_posts = site.pages | where_exp: "page", "page.path contains 'til/2025-08/'" | where_exp: "page", "page.name != 'index.md'" | sort: "date" | reverse %}
-
-{% if til_posts.size > 0 %}
-  {% for post in til_posts %}
-- [{{ post.title | default: post.name | remove: '.md' }}]({{ post.url | relative_url }}) - {{ post.date | default: "날짜 없음" }}
-  {% endfor %}
-{% else %}
-### 📝 작성 예정
-- 일일 학습 내용들을 추가할 예정입니다.
-{% endif %}
+- [2025-08-18 - GitHub Pages 설정](2025-08-18-github-pages-setup) - 2025-08-18
+- [2025-08-18 - AI 분석 예외 처리 및 동시성 제어](2025-08-18-ai-analysis-exception-handling) - 2025-08-18
 
 ## 📝 문서 작성 가이드
 

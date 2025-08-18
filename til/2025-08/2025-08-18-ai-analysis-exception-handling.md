@@ -4,6 +4,7 @@ title: "2025-08-18 - AI 분석 예외 처리 및 동시성 제어"
 date: 2025-08-18
 categories: [til]
 tags: [java, ai, exception-handling, concurrency, spring]
+permalink: /til/2025-08/2025-08-18-ai-analysis-exception-handling.md
 ---
 
 # 2025-08-18 - AI 분석 예외 처리 및 동시성 제어
