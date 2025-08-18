@@ -1,4 +1,12 @@
-# YYYY-MM-DD
+---
+layout: page
+title: "YYYY-MM-DD - 주제명"
+date: YYYY-MM-DD
+categories: [til]
+tags: [카테고리, 기술명]
+---
+
+# YYYY-MM-DD - 주제명
 
 ## 📚 새로 배운 것
 

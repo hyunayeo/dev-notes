@@ -56,3 +56,7 @@ defaults:
       path: "til"
     values:
       layout: "page"
+  - scope:
+      path: "templates"
+    values:
+      layout: "page"

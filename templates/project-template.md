@@ -1,3 +1,11 @@
+---
+layout: page
+title: "프로젝트명"
+date: YYYY-MM-DD
+categories: [projects]
+tags: [프로젝트명, 기술스택]
+---
+
 # 프로젝트명
 
 ## 📝 프로젝트 개요
