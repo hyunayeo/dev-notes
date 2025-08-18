@@ -8,25 +8,25 @@ permalink: /troubleshooting/
 
 개발 중 발생한 문제와 해결 과정을 카테고리별로 분류하여 정리하는 공간입니다.
 
-## 📂 카테고리별 분류
+## 📂 트러블슈팅 목록
 
-### Frontend
-<!-- 프론트엔드 관련 트러블슈팅 문서들 -->
+{% assign troubleshooting_posts = site.pages | where_exp: "page", "page.path contains 'troubleshooting/'" | where_exp: "page", "page.name != 'index.md'" | sort: "date" | reverse %}
 
-### Backend
-<!-- 백엔드 관련 트러블슈팅 문서들 -->
+{% if troubleshooting_posts.size > 0 %}
+  {% for post in troubleshooting_posts %}
+- [{{ post.title | default: post.name | remove: '.md' }}]({{ post.name }}) - {{ post.date | default: "날짜 없음" }}
+  {% endfor %}
+{% else %}
+### 📝 작성 예정
+- 트러블슈팅 경험들을 추가할 예정입니다.
 
-### DevOps
-<!-- DevOps 관련 트러블슈팅 문서들 -->
-
-### Database
-<!-- 데이터베이스 관련 트러블슈팅 문서들 -->
-
-### Mobile
-<!-- 모바일 개발 관련 트러블슈팅 문서들 -->
-
-### 기타
-<!-- 기타 분류되지 않은 문제들 -->
+### 카테고리별 분류 예시
+- **Frontend**: React, Vue, JavaScript 관련 문제들
+- **Backend**: Node.js, Python, API 관련 문제들  
+- **DevOps**: Docker, 배포, CI/CD 관련 문제들
+- **Database**: MySQL, MongoDB 관련 문제들
+- **Mobile**: React Native, Flutter 관련 문제들
+{% endif %}
 
 ## 📝 문서 작성 가이드
 

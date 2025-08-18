@@ -10,10 +10,16 @@ permalink: /projects/
 
 ## 📋 프로젝트 목록
 
-<!-- 프로젝트 문서들이 여기에 추가됩니다 -->
+{% assign project_posts = site.pages | where_exp: "page", "page.path contains 'projects/'" | where_exp: "page", "page.name != 'index.md'" | sort: "date" | reverse %}
 
-### 작성 예정
+{% if project_posts.size > 0 %}
+  {% for post in project_posts %}
+- [{{ post.title | default: post.name | remove: '.md' }}]({{ post.name }}) - {{ post.date | default: "날짜 없음" }}
+  {% endfor %}
+{% else %}
+### 📝 작성 예정
 - 현재 진행 중인 프로젝트들을 정리하여 추가할 예정입니다.
+{% endif %}
 
 ## 📝 문서 작성 가이드
 
