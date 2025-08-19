@@ -23,7 +23,7 @@ permalink: /projects/
 
 ## 📝 문서 작성 가이드
 
-새로운 프로젝트 문서를 작성할 때는 [TEMPLATES.md](../TEMPLATES.md#project-template)를 참고하세요.
+새로운 프로젝트 문서를 작성할 때는 [project-template.md](../tamplates/project-template.md)를 참고하세요.
 
 ### 파일명 규칙
 - `프로젝트명-YYYY-MM.md` 형식으로 작성

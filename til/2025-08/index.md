@@ -27,6 +27,6 @@ permalink: /til/2025-08/
 ## 📝 문서 작성 가이드
 
 - 파일명: `YYYY-MM-DD-주제.md` 형식
-- 템플릿: [TEMPLATES.md](../../TEMPLATES.md#til-template) 참고
+- 템플릿: [til-template.md](../../tamplates/til-template.md) 참고
 
 [← TIL 메인으로 돌아가기](../)
