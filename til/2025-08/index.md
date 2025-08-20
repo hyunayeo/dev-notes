@@ -15,7 +15,7 @@ permalink: /til/2025-08/
 {% if til_posts.size > 0 %}
 {% for post in til_posts %}
 
-- [{{ post.title | default: post.name | remove: '.md' }}]({{ post.url | relative_url }}) - {{ post.date | default: "날짜 없음" }}
+- [{{ post.title | default: post.name | remove: '.md' }}]({{ post.url | relative_url}}) - {{ post.date | default: "날짜 없음" }}
   {% endfor %}
   {% else %}
 
