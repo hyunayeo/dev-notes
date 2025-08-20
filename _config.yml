@@ -36,7 +36,7 @@ header_pages:
   - projects/index.md
   - troubleshooting/index.md
   - til/index.md
-  - TEMPLATES.md
+  - tamplates/index.md
 
 # 기본 레이아웃 설정
 defaults:
