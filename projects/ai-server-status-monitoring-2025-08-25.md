@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AI 서버 상태 모니터링 시스템"
-date: 2025-01-25
+date: 2025-08-25
 categories: [projects]
 tags: [Spring Boot, Java, 모니터링, 스케줄링, AI서버]
 ---
